@@ -1,0 +1,36 @@
+{
+    "name": "sofyco/workflow",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "Provides a simple way to create and manage workflows in your applications",
+    "keywords": ["php", "workflow", "state machine"],
+    "homepage": "https://github.com/sofyco/workflow",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sofiia Korzhova",
+            "email": "sofykorzhova@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.5"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^13.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sofyco\\Workflow\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sofyco\\Workflow\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}

@@ -1,7 +1,7 @@
 {
     "name": "sofyco/workflow",
     "type": "library",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "Provides a simple way to create and manage workflows in your applications",
     "keywords": ["php", "workflow", "state machine"],
     "homepage": "https://github.com/sofyco/workflow",

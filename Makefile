@@ -5,7 +5,7 @@ clear-cache:
 	rm -rf var
 
 phpstan:
-	docker compose run --rm -T php /usr/local/bin/php /app/vendor/bin/phpstan analyse --no-progress
+	docker compose run --rm -T php /usr/local/bin/php /app/vendor/bin/phpstan analyse --no-progress --memory-limit=1G
 
 phpunit: clear-cache
 	docker compose run --rm -T php /usr/local/bin/php /app/vendor/bin/phpunit --testdox --display-all-issues
